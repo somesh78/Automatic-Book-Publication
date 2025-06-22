@@ -1,0 +1,6 @@
+playwright
+transformers
+sentence-transformers
+chromadb
+torch
+python-dotenv
