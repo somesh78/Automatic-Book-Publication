@@ -24,7 +24,7 @@ def run_pipeline(url: str, chapter_id: str):
     reviewed = review_chapter(human)
 
     save_version(chapter_id, reviewed, {"source": url})
-    print("✅ Saved version:", chapter_id)
+    print("Saved version:", chapter_id)
 
     sims = search_similar(spun)
-    print("📚 Similar content snippet:", sims[:200])
+    print("Similar content snippet:", sims[:200])
